@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import AutoMan from "./AutoMan.jsx";
+import Woman from "./Woman.jsx";
 
 const App = () => {
     const [activeTab, setActiveTab] = useState('');
@@ -13,7 +14,7 @@ const App = () => {
               <AutoMan />
           )}
           {activeTab === 'woman' && (
-              <div />
+              <Woman />
           )}
       </>
 
